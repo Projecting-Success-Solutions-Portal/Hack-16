@@ -1,7 +1,7 @@
 # Team 4B - No-Code Continuum
 **Solution**
 
-![alt text](?raw=true)
+![alt text](https://github.com/Projecting-Success-Solutions-Portal/Hack-16/blob/main/Challenge%204/Team%204B%20-%20No-Code%20Continuum/Team%204B%20Cover%20Image.png?raw=true)
 
 **Participants Names**
 
