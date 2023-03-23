@@ -1,0 +1,1291 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Combined Data set 14-21.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Submit Date (UTC)" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="DateTime" />
+            <Field name="What is your age?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="What is your gender?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What country do you live in?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What US state or territory do you live in?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you ever sought treatment for a mental health disorder from a mental health professional?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Does your employer provide mental health benefits as part of healthcare coverage?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you know the options for mental health care available under your employer-provided health coverage?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your coworkers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="N/A2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you bring up your mental health with a potential employer in an interview?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you be willing to bring up a physical health issue with a potential employer in an interview?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Are you self-employed?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="How many employees does your company or organization have?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Is your employer primarily a tech company/organization?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Is your primary role within your company related to tech/IT?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Does your employer provide mental health benefits as part of healthcare coverage?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you have medical coverage (private insurance or state-provided) that includes treatment of mental health disorders?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Do you know local or online resources to seek help for a mental health issue?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business contacts?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have revealed a mental health disorder to a client or business contact, how has this affected you or the relationship?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you believe your productivity is ever affected by a mental health issue?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have your previous employers provided mental health benefits?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Were you aware of the options for mental health care provided by your previous employers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official communication)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Were you aware of the options for mental health care provided by your previous employers?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="How willing would you be to share with friends and family that you have a mental illness?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you have a family history of mental illness?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you had a mental health disorder in the past?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you currently have a mental health disorder?3" size="285" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have a mental health disorder, how often do you feel that it interferes with your work when being treated effectively?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have a mental health disorder, how often do you feel that it interferes with your work when _NOT_ being treated effectively (i.e., when you are experiencing symptoms)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What country do you work in?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What US state or territory do you work in?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you feel more comfortable talking to your coworkers about your physical health or your mental health?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you ever discussed your mental health with your employer?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Have you ever discussed your mental health with coworkers?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Have you ever had a coworker discuss their or another coworker's mental health with you?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Overall, how much importance does your employer place on physical health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Overall, how much importance does your employer place on mental health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="If you have revealed a mental health disorder to a coworker or employee, how has this impacted you or the relationship?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Was your employer primarily a tech company/organization?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Did your previous employers provide resources to learn more about mental health disorders and how to seek help?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you have felt more comfortable talking to your previous employer about your physical health or your mental health?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you have been willing to discuss your mental health with your direct supervisor(s)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Did you ever discuss your mental health with your previous employer?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Would you have been willing to discuss your mental health with your coworkers at previous employers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Did you ever discuss your mental health with a previous coworker(s)?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Did you ever have a previous coworker discuss their or another coworker's mental health with you?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Describe the conversation your coworker had with you about their mental health (please do not use names).2" size="598" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Overall, how much importance did your previous employer place on physical health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Overall, how much importance did your previous employer place on mental health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Have your observations of how another individual who discussed a mental health issue made you less likely to reveal a mental health issue yourself in your current workplace?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Are you openly identified at work as a person with a mental health issue?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Has being identified as a person with a mental health issue affected your career?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="How has it affected your career?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Overall, how well do you think the tech industry supports employees with mental health issues?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="If there is anything else you would like to tell us that has not been covered by the survey questions, please use this space to do so." size="1102" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Would you be willing to talk to one of us more extensively about your experiences with mental health issues in the tech industry? (Note that all interview responses would be used _anonymously_ and only with your permission.)" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="What is your race?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What US state or territory do you live in?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you have previous employers?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you observed or experienced a supportive or well handled response to a mental health issue in your current or previous workplace?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you been diagnosed with COVID-19?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Year" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mental Health Condition" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Bool" />
+            <Field name="Binned 10 year" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="306" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([Year], &quot;||&quot;, &quot;&quot;)" field="Year" size="255" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Year = Replace([Year], "||", "")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="True" type="Int64" size="8" />
+            <SelectField field="Mental Health Condition" selected="True" />
+            <SelectField field="Binned 10 year" selected="True" />
+            <SelectField field="Submit Date (UTC)" selected="True" />
+            <SelectField field="What is your age?" selected="True" />
+            <SelectField field="What is your gender?" selected="True" />
+            <SelectField field="What country do you live in?" selected="True" />
+            <SelectField field="What US state or territory do you live in?" selected="True" />
+            <SelectField field="Have you ever sought treatment for a mental health disorder from a mental health professional?" selected="True" />
+            <SelectField field="Does your employer provide mental health benefits as part of healthcare coverage?" selected="True" />
+            <SelectField field="Do you know the options for mental health care available under your employer-provided health coverage?" selected="True" />
+            <SelectField field="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" selected="True" />
+            <SelectField field="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" selected="True" />
+            <SelectField field="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?2" selected="True" />
+            <SelectField field="Would you feel comfortable discussing a mental health issue with your coworkers?" selected="True" />
+            <SelectField field="N/A2" selected="True" />
+            <SelectField field="Would you bring up your mental health with a potential employer in an interview?" selected="True" />
+            <SelectField field="Would you be willing to bring up a physical health issue with a potential employer in an interview?" selected="True" />
+            <SelectField field="Are you self-employed?" selected="True" />
+            <SelectField field="How many employees does your company or organization have?" selected="True" />
+            <SelectField field="Is your employer primarily a tech company/organization?" selected="True" />
+            <SelectField field="Is your primary role within your company related to tech/IT?" selected="True" />
+            <SelectField field="Does your employer provide mental health benefits as part of healthcare coverage?2" selected="True" />
+            <SelectField field="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" selected="True" />
+            <SelectField field="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" selected="True" />
+            <SelectField field="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" selected="True" />
+            <SelectField field="Do you have medical coverage (private insurance or state-provided) that includes treatment of mental health disorders?" selected="True" />
+            <SelectField field="Do you know local or online resources to seek help for a mental health issue?" selected="True" />
+            <SelectField field="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business contacts?" selected="True" />
+            <SelectField field="If you have revealed a mental health disorder to a client or business contact, how has this affected you or the relationship?" selected="True" />
+            <SelectField field="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?" selected="True" />
+            <SelectField field="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?2" selected="True" />
+            <SelectField field="Do you believe your productivity is ever affected by a mental health issue?" selected="True" />
+            <SelectField field="If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?" selected="True" />
+            <SelectField field="Have your previous employers provided mental health benefits?" selected="True" />
+            <SelectField field="Were you aware of the options for mental health care provided by your previous employers?" selected="True" />
+            <SelectField field="Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official communication)?" selected="True" />
+            <SelectField field="Were you aware of the options for mental health care provided by your previous employers?2" selected="True" />
+            <SelectField field="Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?" selected="True" />
+            <SelectField field="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?2" selected="True" />
+            <SelectField field="Did you feel that your previous employers took mental health as seriously as physical health?" selected="True" />
+            <SelectField field="How willing would you be to share with friends and family that you have a mental illness?" selected="True" />
+            <SelectField field="Do you have a family history of mental illness?" selected="True" />
+            <SelectField field="Have you had a mental health disorder in the past?" selected="True" />
+            <SelectField field="Do you currently have a mental health disorder?3" selected="True" />
+            <SelectField field="If you have a mental health disorder, how often do you feel that it interferes with your work when being treated effectively?" selected="True" />
+            <SelectField field="If you have a mental health disorder, how often do you feel that it interferes with your work when _NOT_ being treated effectively (i.e., when you are experiencing symptoms)?" selected="True" />
+            <SelectField field="What country do you work in?" selected="True" />
+            <SelectField field="What US state or territory do you work in?" selected="True" />
+            <SelectField field="Would you feel more comfortable talking to your coworkers about your physical health or your mental health?" selected="True" />
+            <SelectField field="Have you ever discussed your mental health with your employer?" selected="True" />
+            <SelectField field="Have you ever discussed your mental health with coworkers?" selected="True" />
+            <SelectField field="Have you ever had a coworker discuss their or another coworker's mental health with you?" selected="True" />
+            <SelectField field="Overall, how much importance does your employer place on physical health?" selected="True" />
+            <SelectField field="Overall, how much importance does your employer place on mental health?" selected="True" />
+            <SelectField field="If you have revealed a mental health disorder to a coworker or employee, how has this impacted you or the relationship?" selected="True" />
+            <SelectField field="Was your employer primarily a tech company/organization?" selected="True" />
+            <SelectField field="Did your previous employers provide resources to learn more about mental health disorders and how to seek help?" selected="True" />
+            <SelectField field="Would you have felt more comfortable talking to your previous employer about your physical health or your mental health?" selected="True" />
+            <SelectField field="Would you have been willing to discuss your mental health with your direct supervisor(s)?" selected="True" />
+            <SelectField field="Did you ever discuss your mental health with your previous employer?" selected="True" />
+            <SelectField field="Would you have been willing to discuss your mental health with your coworkers at previous employers?" selected="True" />
+            <SelectField field="Did you ever discuss your mental health with a previous coworker(s)?" selected="True" />
+            <SelectField field="Did you ever have a previous coworker discuss their or another coworker's mental health with you?" selected="True" />
+            <SelectField field="Describe the conversation your coworker had with you about their mental health (please do not use names).2" selected="True" />
+            <SelectField field="Overall, how much importance did your previous employer place on physical health?" selected="True" />
+            <SelectField field="Overall, how much importance did your previous employer place on mental health?" selected="True" />
+            <SelectField field="Have your observations of how another individual who discussed a mental health issue made you less likely to reveal a mental health issue yourself in your current workplace?" selected="True" />
+            <SelectField field="Are you openly identified at work as a person with a mental health issue?" selected="True" />
+            <SelectField field="Has being identified as a person with a mental health issue affected your career?" selected="True" />
+            <SelectField field="How has it affected your career?" selected="True" />
+            <SelectField field="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" selected="True" />
+            <SelectField field="Overall, how well do you think the tech industry supports employees with mental health issues?" selected="True" />
+            <SelectField field="If there is anything else you would like to tell us that has not been covered by the survey questions, please use this space to do so." selected="True" />
+            <SelectField field="Would you be willing to talk to one of us more extensively about your experiences with mental health issues in the tech industry? (Note that all interview responses would be used _anonymously_ and only with your permission.)" selected="True" />
+            <SelectField field="What is your race?" selected="True" />
+            <SelectField field="What US state or territory do you live in?2" selected="True" />
+            <SelectField field="Do you have previous employers?" selected="True" />
+            <SelectField field="Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?" selected="True" />
+            <SelectField field="Have you observed or experienced a supportive or well handled response to a mental health issue in your current or previous workplace?" selected="True" />
+            <SelectField field="Have you been diagnosed with COVID-19?" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="594" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="14" />
+          <Fields>
+            <Field name="ColumnName" />
+            <Field name="Field2" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Year</c>
+              <c>-5</c>
+            </r>
+            <r>
+              <c>Binned 10 year</c>
+              <c>-4</c>
+            </r>
+            <r>
+              <c>Mental Health Condition</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>Overall, how much importance does your employer place on mental health?</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Overall, how much importance does your employer place on physical health?</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Overall, how much importance did your previous employer place on mental health?</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Overall, how well do you think the tech industry supports employees with mental health issues?</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Does your employer offer resources to learn more about mental health disorders and options for seeking help?</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Would you feel comfortable discussing a mental health issue with your coworkers?</c>
+              <c>8</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="498" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="594" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields />
+          <DataFields>
+            <Field field="Year" selected="True" />
+            <Field field="Mental Health Condition" selected="True" />
+            <Field field="Binned 10 year" selected="True" />
+            <Field field="Submit Date (UTC)" selected="True" />
+            <Field field="What is your age?" selected="True" />
+            <Field field="What is your gender?" selected="True" />
+            <Field field="What country do you live in?" selected="True" />
+            <Field field="What US state or territory do you live in?" selected="True" />
+            <Field field="Have you ever sought treatment for a mental health disorder from a mental health professional?" selected="True" />
+            <Field field="Does your employer provide mental health benefits as part of healthcare coverage?" selected="True" />
+            <Field field="Do you know the options for mental health care available under your employer-provided health coverage?" selected="True" />
+            <Field field="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" selected="True" />
+            <Field field="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" selected="True" />
+            <Field field="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?2" selected="True" />
+            <Field field="Would you feel comfortable discussing a mental health issue with your coworkers?" selected="True" />
+            <Field field="N/A2" selected="True" />
+            <Field field="Would you bring up your mental health with a potential employer in an interview?" selected="True" />
+            <Field field="Would you be willing to bring up a physical health issue with a potential employer in an interview?" selected="True" />
+            <Field field="Are you self-employed?" selected="True" />
+            <Field field="How many employees does your company or organization have?" selected="True" />
+            <Field field="Is your employer primarily a tech company/organization?" selected="True" />
+            <Field field="Is your primary role within your company related to tech/IT?" selected="True" />
+            <Field field="Does your employer provide mental health benefits as part of healthcare coverage?2" selected="True" />
+            <Field field="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" selected="True" />
+            <Field field="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" selected="True" />
+            <Field field="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" selected="True" />
+            <Field field="Do you have medical coverage (private insurance or state-provided) that includes treatment of mental health disorders?" selected="True" />
+            <Field field="Do you know local or online resources to seek help for a mental health issue?" selected="True" />
+            <Field field="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business contacts?" selected="True" />
+            <Field field="If you have revealed a mental health disorder to a client or business contact, how has this affected you or the relationship?" selected="True" />
+            <Field field="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?" selected="True" />
+            <Field field="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?2" selected="True" />
+            <Field field="Do you believe your productivity is ever affected by a mental health issue?" selected="True" />
+            <Field field="If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?" selected="True" />
+            <Field field="Have your previous employers provided mental health benefits?" selected="True" />
+            <Field field="Were you aware of the options for mental health care provided by your previous employers?" selected="True" />
+            <Field field="Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official communication)?" selected="True" />
+            <Field field="Were you aware of the options for mental health care provided by your previous employers?2" selected="True" />
+            <Field field="Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?" selected="True" />
+            <Field field="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?2" selected="True" />
+            <Field field="How willing would you be to share with friends and family that you have a mental illness?" selected="True" />
+            <Field field="Do you have a family history of mental illness?" selected="True" />
+            <Field field="Have you had a mental health disorder in the past?" selected="True" />
+            <Field field="Do you currently have a mental health disorder?3" selected="True" />
+            <Field field="If you have a mental health disorder, how often do you feel that it interferes with your work when being treated effectively?" selected="True" />
+            <Field field="If you have a mental health disorder, how often do you feel that it interferes with your work when _NOT_ being treated effectively (i.e., when you are experiencing symptoms)?" selected="True" />
+            <Field field="What country do you work in?" selected="True" />
+            <Field field="What US state or territory do you work in?" selected="True" />
+            <Field field="Would you feel more comfortable talking to your coworkers about your physical health or your mental health?" selected="True" />
+            <Field field="Have you ever discussed your mental health with your employer?" selected="True" />
+            <Field field="Have you ever discussed your mental health with coworkers?" selected="True" />
+            <Field field="Have you ever had a coworker discuss their or another coworker's mental health with you?" selected="True" />
+            <Field field="Overall, how much importance does your employer place on physical health?" selected="True" />
+            <Field field="Overall, how much importance does your employer place on mental health?" selected="True" />
+            <Field field="If you have revealed a mental health disorder to a coworker or employee, how has this impacted you or the relationship?" selected="True" />
+            <Field field="Was your employer primarily a tech company/organization?" selected="True" />
+            <Field field="Did your previous employers provide resources to learn more about mental health disorders and how to seek help?" selected="True" />
+            <Field field="Would you have felt more comfortable talking to your previous employer about your physical health or your mental health?" selected="True" />
+            <Field field="Would you have been willing to discuss your mental health with your direct supervisor(s)?" selected="True" />
+            <Field field="Did you ever discuss your mental health with your previous employer?" selected="True" />
+            <Field field="Would you have been willing to discuss your mental health with your coworkers at previous employers?" selected="True" />
+            <Field field="Did you ever discuss your mental health with a previous coworker(s)?" selected="True" />
+            <Field field="Did you ever have a previous coworker discuss their or another coworker's mental health with you?" selected="True" />
+            <Field field="Describe the conversation your coworker had with you about their mental health (please do not use names).2" selected="True" />
+            <Field field="Overall, how much importance did your previous employer place on physical health?" selected="True" />
+            <Field field="Overall, how much importance did your previous employer place on mental health?" selected="True" />
+            <Field field="Have your observations of how another individual who discussed a mental health issue made you less likely to reveal a mental health issue yourself in your current workplace?" selected="True" />
+            <Field field="Are you openly identified at work as a person with a mental health issue?" selected="True" />
+            <Field field="Has being identified as a person with a mental health issue affected your career?" selected="True" />
+            <Field field="How has it affected your career?" selected="True" />
+            <Field field="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" selected="True" />
+            <Field field="Overall, how well do you think the tech industry supports employees with mental health issues?" selected="True" />
+            <Field field="If there is anything else you would like to tell us that has not been covered by the survey questions, please use this space to do so." selected="True" />
+            <Field field="Would you be willing to talk to one of us more extensively about your experiences with mental health issues in the tech industry? (Note that all interview responses would be used _anonymously_ and only with your permission.)" selected="True" />
+            <Field field="What is your race?" selected="True" />
+            <Field field="What US state or territory do you live in?2" selected="True" />
+            <Field field="Do you have previous employers?" selected="True" />
+            <Field field="Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?" selected="True" />
+            <Field field="Have you observed or experienced a supportive or well handled response to a mental health issue in your current or previous workplace?" selected="True" />
+            <Field field="Have you been diagnosed with COVID-19?" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="726" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ColumnName" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Name" selected="False" input="Left_" />
+                <SelectField field="Left_Value" selected="False" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="822" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Yes&quot;" field="Drop" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Drop = "Yes"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="966" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>RightDescriptionRows</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Year" />
+            <Field name="Mental Health Condition" />
+            <Field name="Binned 10 year" />
+            <Field name="Submit Date (UTC)" />
+            <Field name="What is your age?" />
+            <Field name="What is your gender?" />
+            <Field name="What country do you live in?" />
+            <Field name="What US state or territory do you live in?" />
+            <Field name="Have you ever sought treatment for a mental health disorder from a mental health professional?" />
+            <Field name="Does your employer provide mental health benefits as part of healthcare coverage?" />
+            <Field name="Do you know the options for mental health care available under your employer-provided health coverage?" />
+            <Field name="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" />
+            <Field name="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?2" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your coworkers?" />
+            <Field name="N/A2" />
+            <Field name="Would you bring up your mental health with a potential employer in an interview?" />
+            <Field name="Would you be willing to bring up a physical health issue with a potential employer in an interview?" />
+            <Field name="Are you self-employed?" />
+            <Field name="How many employees does your company or organization have?" />
+            <Field name="Is your employer primarily a tech company/organization?" />
+            <Field name="Is your primary role within your company related to tech/IT?" />
+            <Field name="Does your employer provide mental health benefits as part of healthcare coverage?2" />
+            <Field name="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" />
+            <Field name="Do you have medical coverage (private insurance or state-provided) that includes treatment of mental health disorders?" />
+            <Field name="Do you know local or online resources to seek help for a mental health issue?" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business contacts?" />
+            <Field name="If you have revealed a mental health disorder to a client or business contact, how has this affected you or the relationship?" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?2" />
+            <Field name="Do you believe your productivity is ever affected by a mental health issue?" />
+            <Field name="If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?" />
+            <Field name="Have your previous employers provided mental health benefits?" />
+            <Field name="Were you aware of the options for mental health care provided by your previous employers?" />
+            <Field name="Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official communication)?" />
+            <Field name="Were you aware of the options for mental health care provided by your previous employers?2" />
+            <Field name="Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?2" />
+            <Field name="How willing would you be to share with friends and family that you have a mental illness?" />
+            <Field name="Do you have a family history of mental illness?" />
+            <Field name="Have you had a mental health disorder in the past?" />
+            <Field name="Do you currently have a mental health disorder?3" />
+            <Field name="If you have a mental health disorder, how often do you feel that it interferes with your work when being treated effectively?" />
+            <Field name="If you have a mental health disorder, how often do you feel that it interferes with your work when _NOT_ being treated effectively (i.e., when you are experiencing symptoms)?" />
+            <Field name="What country do you work in?" />
+            <Field name="What US state or territory do you work in?" />
+            <Field name="Would you feel more comfortable talking to your coworkers about your physical health or your mental health?" />
+            <Field name="Have you ever discussed your mental health with your employer?" />
+            <Field name="Have you ever discussed your mental health with coworkers?" />
+            <Field name="Have you ever had a coworker discuss their or another coworker's mental health with you?" />
+            <Field name="Overall, how much importance does your employer place on physical health?" />
+            <Field name="Overall, how much importance does your employer place on mental health?" />
+            <Field name="If you have revealed a mental health disorder to a coworker or employee, how has this impacted you or the relationship?" />
+            <Field name="Was your employer primarily a tech company/organization?" />
+            <Field name="Did your previous employers provide resources to learn more about mental health disorders and how to seek help?" />
+            <Field name="Would you have felt more comfortable talking to your previous employer about your physical health or your mental health?" />
+            <Field name="Would you have been willing to discuss your mental health with your direct supervisor(s)?" />
+            <Field name="Did you ever discuss your mental health with your previous employer?" />
+            <Field name="Would you have been willing to discuss your mental health with your coworkers at previous employers?" />
+            <Field name="Did you ever discuss your mental health with a previous coworker(s)?" />
+            <Field name="Did you ever have a previous coworker discuss their or another coworker's mental health with you?" />
+            <Field name="Describe the conversation your coworker had with you about their mental health (please do not use names).2" />
+            <Field name="Overall, how much importance did your previous employer place on physical health?" />
+            <Field name="Overall, how much importance did your previous employer place on mental health?" />
+            <Field name="Have your observations of how another individual who discussed a mental health issue made you less likely to reveal a mental health issue yourself in your current workplace?" />
+            <Field name="Are you openly identified at work as a person with a mental health issue?" />
+            <Field name="Has being identified as a person with a mental health issue affected your career?" />
+            <Field name="How has it affected your career?" />
+            <Field name="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" />
+            <Field name="Overall, how well do you think the tech industry supports employees with mental health issues?" />
+            <Field name="If there is anything else you would like to tell us that has not been covered by the survey questions, please use this space to do so." />
+            <Field name="Would you be willing to talk to one of us more extensively about your experiences with mental health issues in the tech industry? (Note that all interview responses would be used _anonymously_ and only with your permission.)" />
+            <Field name="What is your race?" />
+            <Field name="What US state or territory do you live in?2" />
+            <Field name="Do you have previous employers?" />
+            <Field name="Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?" />
+            <Field name="Have you observed or experienced a supportive or well handled response to a mental health issue in your current or previous workplace?" />
+            <Field name="Have you been diagnosed with COVID-19?" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <DescFromRows>
+            <OnError>Ignore</OnError>
+            <InputMode>Mapped</InputMode>
+            <OldName>Name</OldName>
+            <NewName>Drop</NewName>
+          </DescFromRows>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" source="Formula: Replace([Year], &quot;||&quot;, &quot;&quot;)" type="Int64" />
+            <Field name="Mental Health Condition" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Bool" />
+            <Field name="Binned 10 year" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Submit Date (UTC)" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="DateTime" />
+            <Field name="What is your age?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="What is your gender?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What country do you live in?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What US state or territory do you live in?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you ever sought treatment for a mental health disorder from a mental health professional?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Does your employer provide mental health benefits as part of healthcare coverage?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you know the options for mental health care available under your employer-provided health coverage?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your coworkers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="N/A2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you bring up your mental health with a potential employer in an interview?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you be willing to bring up a physical health issue with a potential employer in an interview?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Are you self-employed?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="How many employees does your company or organization have?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Is your employer primarily a tech company/organization?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Is your primary role within your company related to tech/IT?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Does your employer provide mental health benefits as part of healthcare coverage?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you have medical coverage (private insurance or state-provided) that includes treatment of mental health disorders?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Do you know local or online resources to seek help for a mental health issue?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business contacts?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have revealed a mental health disorder to a client or business contact, how has this affected you or the relationship?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you believe your productivity is ever affected by a mental health issue?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have your previous employers provided mental health benefits?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Were you aware of the options for mental health care provided by your previous employers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official communication)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Were you aware of the options for mental health care provided by your previous employers?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="How willing would you be to share with friends and family that you have a mental illness?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you have a family history of mental illness?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you had a mental health disorder in the past?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you currently have a mental health disorder?3" size="285" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have a mental health disorder, how often do you feel that it interferes with your work when being treated effectively?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="If you have a mental health disorder, how often do you feel that it interferes with your work when _NOT_ being treated effectively (i.e., when you are experiencing symptoms)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What country do you work in?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What US state or territory do you work in?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you feel more comfortable talking to your coworkers about your physical health or your mental health?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you ever discussed your mental health with your employer?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Have you ever discussed your mental health with coworkers?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Have you ever had a coworker discuss their or another coworker's mental health with you?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Overall, how much importance does your employer place on physical health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Overall, how much importance does your employer place on mental health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="If you have revealed a mental health disorder to a coworker or employee, how has this impacted you or the relationship?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Was your employer primarily a tech company/organization?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Did your previous employers provide resources to learn more about mental health disorders and how to seek help?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you have felt more comfortable talking to your previous employer about your physical health or your mental health?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Would you have been willing to discuss your mental health with your direct supervisor(s)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Did you ever discuss your mental health with your previous employer?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Would you have been willing to discuss your mental health with your coworkers at previous employers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Did you ever discuss your mental health with a previous coworker(s)?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Did you ever have a previous coworker discuss their or another coworker's mental health with you?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Describe the conversation your coworker had with you about their mental health (please do not use names).2" size="598" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Overall, how much importance did your previous employer place on physical health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Overall, how much importance did your previous employer place on mental health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Have your observations of how another individual who discussed a mental health issue made you less likely to reveal a mental health issue yourself in your current workplace?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Are you openly identified at work as a person with a mental health issue?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Has being identified as a person with a mental health issue affected your career?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="How has it affected your career?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Overall, how well do you think the tech industry supports employees with mental health issues?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="If there is anything else you would like to tell us that has not been covered by the survey questions, please use this space to do so." size="1102" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Would you be willing to talk to one of us more extensively about your experiences with mental health issues in the tech industry? (Note that all interview responses would be used _anonymously_ and only with your permission.)" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="What is your race?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="What US state or territory do you live in?2" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Do you have previous employers?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you observed or experienced a supportive or well handled response to a mental health issue in your current or previous workplace?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Have you been diagnosed with COVID-19?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\Combined Data set 14-21.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+        <Position x="1158" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Formula</Mode>
+          <Expression>[Description] != "Yes"</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1254" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" action="CountNonNull" rename="CountNonNull_Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" />
+            <SummarizeField field="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" action="CountNonNull" rename="CountNonNull_Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" />
+            <SummarizeField field="Would you feel comfortable discussing a mental health issue with your coworkers?" action="CountNonNull" rename="CountNonNull_Would you feel comfortable discussing a mental health issue with your coworkers?" />
+            <SummarizeField field="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" action="CountNonNull" rename="CountNonNull_Does your employer offer resources to learn more about mental health disorders and options for seeking help?" />
+            <SummarizeField field="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" action="CountNonNull" rename="CountNonNull_If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" />
+            <SummarizeField field="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" action="CountNonNull" rename="CountNonNull_Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" />
+            <SummarizeField field="Overall, how much importance does your employer place on physical health?" action="CountNonNull" rename="CountNonNull_Overall, how much importance does your employer place on physical health?" />
+            <SummarizeField field="Overall, how much importance does your employer place on mental health?" action="CountNonNull" rename="CountNonNull_Overall, how much importance does your employer place on mental health?" />
+            <SummarizeField field="Overall, how much importance did your previous employer place on mental health?" action="CountNonNull" rename="CountNonNull_Overall, how much importance did your previous employer place on mental health?" />
+            <SummarizeField field="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" action="CountNonNull" rename="CountNonNull_If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" />
+            <SummarizeField field="Overall, how well do you think the tech industry supports employees with mental health issues?" action="CountNonNull" rename="CountNonNull_Overall, how well do you think the tech industry supports employees with mental health issues?" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1350" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Year" />
+            <Field name="CountNonNull_Does your employer provide mental health benefits as part of healthcare coverage?" />
+            <Field name="CountNonNull_Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" />
+            <Field name="CountNonNull_Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" />
+            <Field name="CountNonNull_Would you feel comfortable discussing a mental health issue with your coworkers?" />
+            <Field name="CountNonNull_How many employees does your company or organization have?" />
+            <Field name="CountNonNull_Does your employer offer resources to learn more about mental health disorders and options for seeking help?" />
+            <Field name="CountNonNull_If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" />
+            <Field name="CountNonNull_Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" />
+            <Field name="CountNonNull_Overall, how much importance does your employer place on physical health?" />
+            <Field name="CountNonNull_Overall, how much importance does your employer place on mental health?" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>Replace([_CurrentField_], "CountNonNull_", "")</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" source="Summarize: GroupBy - Year" type="Int64" />
+            <Field name="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" source="Summarize: CountNonNull - Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" type="Int64" />
+            <Field name="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" source="Summarize: CountNonNull - Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" type="Int64" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your coworkers?" source="Summarize: CountNonNull - Would you feel comfortable discussing a mental health issue with your coworkers?" type="Int64" />
+            <Field name="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" source="Summarize: CountNonNull - Does your employer offer resources to learn more about mental health disorders and options for seeking help?" type="Int64" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" source="Summarize: CountNonNull - If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" type="Int64" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" source="Summarize: CountNonNull - Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" type="Int64" />
+            <Field name="Overall, how much importance does your employer place on physical health?" source="Summarize: CountNonNull - Overall, how much importance does your employer place on physical health?" type="Int64" />
+            <Field name="Overall, how much importance does your employer place on mental health?" source="Summarize: CountNonNull - Overall, how much importance does your employer place on mental health?" type="Int64" />
+            <Field name="Overall, how much importance did your previous employer place on mental health?" source="Summarize: CountNonNull - Overall, how much importance did your previous employer place on mental health?" type="Int64" />
+            <Field name="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" source="Summarize: CountNonNull - If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" type="Int64" />
+            <Field name="Overall, how well do you think the tech industry supports employees with mental health issues?" source="Summarize: CountNonNull - Overall, how well do you think the tech industry supports employees with mental health issues?" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Year" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="1542" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>All</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Does your employer provide mental health benefits as part of healthcare coverage?" />
+            <Field name="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" />
+            <Field name="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your coworkers?" />
+            <Field name="How many employees does your company or organization have?" />
+            <Field name="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" />
+            <Field name="Overall, how much importance does your employer place on physical health?" />
+            <Field name="Overall, how much importance does your employer place on mental health?" />
+            <Field name="*Unknown" />
+            <Field name="Year" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>IF [_CurrentField_] != "0"
+THEN "Yes"
+ELSE "No"
+ENDIF</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF [_CurrentField_] != "0"
+THEN "Yes"
+ELSE "No"
+ENDIF</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1446" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" selected="True" type="V_WString" size="21" />
+            <SelectField field="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" selected="True" type="V_WString" size="21" />
+            <SelectField field="Would you feel comfortable discussing a mental health issue with your coworkers?" selected="True" type="V_WString" size="21" />
+            <SelectField field="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" selected="True" type="V_WString" size="21" />
+            <SelectField field="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" selected="True" type="V_WString" size="21" />
+            <SelectField field="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" selected="True" type="V_WString" size="21" />
+            <SelectField field="Overall, how much importance does your employer place on physical health?" selected="True" type="V_WString" size="21" />
+            <SelectField field="Overall, how much importance does your employer place on mental health?" selected="True" type="V_WString" size="21" />
+            <SelectField field="Overall, how much importance did your previous employer place on mental health?" selected="True" type="V_WString" size="21" />
+            <SelectField field="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" selected="True" type="V_WString" size="21" />
+            <SelectField field="Overall, how well do you think the tech industry supports employees with mental health issues?" selected="True" type="V_WString" size="21" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1254" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Mental Health Condition" selected="True" rename="Has Mental Health Condition" />
+            <SelectField field="Binned 10 year" selected="True" rename="Age Group" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1350" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2014-2021 Top10 Fields.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2014-2021 Top10 Fields.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="1638" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Year" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Year" selected="False" />
+            <Field field="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" selected="True" />
+            <Field field="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" selected="True" />
+            <Field field="Would you feel comfortable discussing a mental health issue with your coworkers?" selected="True" />
+            <Field field="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" selected="True" />
+            <Field field="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" selected="True" />
+            <Field field="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" selected="True" />
+            <Field field="Overall, how much importance does your employer place on physical health?" selected="True" />
+            <Field field="Overall, how much importance does your employer place on mental health?" selected="True" />
+            <Field field="Overall, how much importance did your previous employer place on mental health?" selected="True" />
+            <Field field="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" selected="True" />
+            <Field field="Overall, how well do you think the tech industry supports employees with mental health issues?" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1830" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Value" action="Count" rename="No. of Top 10 Features Present" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1734" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Value</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-04 16:22:51</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Yes</Operand>
+              <StartDate>2022-08-04 16:22:51</StartDate>
+              <EndDate>2022-08-04 16:22:51</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Value] = "Yes"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1926" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Year" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1350" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-04 16:25:17</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2022-08-04 16:25:17</StartDate>
+              <EndDate>2022-08-04 16:25:17</EndDate>
+              <Operand>2017</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] &gt;= 2017</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1446" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2017-2021 Top10 Fields.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1062" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Are you self-employed?] != 1</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Are you self-employed?] != 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1254" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\DataRobot Feature Importance Test.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DataRobot Feature Importance Test.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1158" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-04 16:48:37</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2022-08-04 16:48:37</StartDate>
+              <EndDate>2022-08-04 16:48:37</EndDate>
+              <Operand>2017</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] &gt;= 2017</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Left" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="True" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Consolidate Top10 Dataset</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f9e4cf17-d1a4-4138-94ce-a6e208a25aa3" />
+      <Telemetry>
+        <PreviousWorkflowId value="334aaa41-dfb3-4da5-bf6c-5498f10e98eb" />
+        <OriginWorkflowId value="334aaa41-dfb3-4da5-bf6c-5498f10e98eb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

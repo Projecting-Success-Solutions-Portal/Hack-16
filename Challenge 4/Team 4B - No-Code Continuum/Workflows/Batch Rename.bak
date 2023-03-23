@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="Path" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\Inputs\Mental Health Data.xlsx|||`2014$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Mental Health Data.xlsx
+Query=`2014$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Timestamp" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="DateTime" />
+            <Field name="Age" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="Double" />
+            <Field name="Gender" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="state" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="self_employed" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="family_history" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="treatment" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="work_interfere" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="no_employees" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="remote_work" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="tech_company" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="benefits" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="care_options" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="wellness_program" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="seek_help" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="anonymity" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="leave" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_health_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="phys_health_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="coworkers" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="supervisor" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_health_interview" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="phys_health_interview" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_vs_physical" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="obs_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="comments" size="3548" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="138" y="66" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (64)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="138" y="174" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="126" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input7</Name>
+          <Abbrev />
+          <ShowFieldMap value="True" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Find" />
+                <Field name="Replace" />
+                <Field name="Ignore" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Timestamp</c>
+                  <c>Start Date (UTC)</c>
+                  <c>Submit Date (UTC)</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Input</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Find" size="9" source="TextInput:" type="String" />
+            <Field name="Replace" size="16" source="TextInput:" type="String" />
+            <Field name="Ignore" size="17" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="342" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>RightInputRows</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Timestamp" />
+            <Field name="Age" />
+            <Field name="Gender" />
+            <Field name="Country" />
+            <Field name="state" />
+            <Field name="self_employed" />
+            <Field name="family_history" />
+            <Field name="treatment" />
+            <Field name="work_interfere" />
+            <Field name="no_employees" />
+            <Field name="remote_work" />
+            <Field name="tech_company" />
+            <Field name="benefits" />
+            <Field name="care_options" />
+            <Field name="wellness_program" />
+            <Field name="seek_help" />
+            <Field name="anonymity" />
+            <Field name="leave" />
+            <Field name="mental_health_consequence" />
+            <Field name="phys_health_consequence" />
+            <Field name="coworkers" />
+            <Field name="supervisor" />
+            <Field name="mental_health_interview" />
+            <Field name="phys_health_interview" />
+            <Field name="mental_vs_physical" />
+            <Field name="obs_consequence" />
+            <Field name="comments" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <NamesFromRows>
+            <OnError>Warn</OnError>
+            <InputMode>Mapped</InputMode>
+            <OldName>Find</OldName>
+            <NewName>Replace</NewName>
+          </NamesFromRows>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Timestamp" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="DateTime" />
+            <Field name="Age" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="Double" />
+            <Field name="Gender" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="state" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="self_employed" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="family_history" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="treatment" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="work_interfere" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="no_employees" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="remote_work" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="tech_company" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="benefits" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="care_options" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="wellness_program" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="seek_help" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="anonymity" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="leave" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_health_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="phys_health_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="coworkers" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="supervisor" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_health_interview" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="phys_health_interview" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_vs_physical" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="obs_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="comments" size="3548" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="462" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>RightDescriptionRows</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Start Date (UTC)" />
+            <Field name="What is your age?" />
+            <Field name="What is your gender?" />
+            <Field name="What country do you live in?" />
+            <Field name="What US state or territory do you live in?" />
+            <Field name="self_employed" />
+            <Field name="family_history" />
+            <Field name="Have you ever sought treatment for a mental health disorder from a mental health professional?" />
+            <Field name="work_interfere" />
+            <Field name="no_employees" />
+            <Field name="remote_work" />
+            <Field name="N/A" />
+            <Field name="Does your employer provide mental health benefits as part of healthcare coverage?" />
+            <Field name="Do you know the options for mental health care available under your employer-provided health coverage?" />
+            <Field name="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" />
+            <Field name="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" />
+            <Field name="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?2" />
+            <Field name="phys_health_consequence" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your coworkers?" />
+            <Field name="N/A2" />
+            <Field name="Would you bring up your mental health with a potential employer in an interview?" />
+            <Field name="Would you be willing to bring up a physical health issue with a potential employer in an interview?" />
+            <Field name="mental_vs_physical" />
+            <Field name="obs_consequence" />
+            <Field name="comments" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <DescFromRows>
+            <OnError>Warn</OnError>
+            <InputMode>Mapped</InputMode>
+            <OldName>Replace</OldName>
+            <NewName>Ignore</NewName>
+          </DescFromRows>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Timestamp" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="DateTime" />
+            <Field name="Age" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="Double" />
+            <Field name="Gender" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="state" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="self_employed" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="family_history" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="treatment" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="work_interfere" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="no_employees" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="remote_work" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="tech_company" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="benefits" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="care_options" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="wellness_program" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="seek_help" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="anonymity" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="leave" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_health_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="phys_health_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="coworkers" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="supervisor" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_health_interview" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="phys_health_interview" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_vs_physical" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="obs_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="comments" size="3548" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+        <Position x="546" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Formula</Mode>
+          <Expression>[Description]!="1"</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Timestamp" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="DateTime" />
+            <Field name="Age" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="Double" />
+            <Field name="Gender" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="state" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="self_employed" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="family_history" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="treatment" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="work_interfere" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="no_employees" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="remote_work" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="tech_company" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="benefits" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="care_options" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="wellness_program" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="seek_help" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="anonymity" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="leave" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_health_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="phys_health_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="coworkers" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="supervisor" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_health_interview" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="phys_health_interview" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="mental_vs_physical" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="obs_consequence" size="255" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="comments" size="3548" source="File: C:\Users\User\Continuum Consulting\Client Documents - Documents (1)\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Inputs\Mental Health Data.xlsx|||`2014$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="654" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output11</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Source" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="6" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Action" />
+      <Destination ToolID="4" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (5)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (7)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Batch Rename</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="190aecd8-c9f5-4ff7-bcb9-2246ae859c9d" />
+      <Telemetry>
+        <PreviousWorkflowId value="1dbb04e0-c73e-4f6c-9b9c-5bf2e2f741cc" />
+        <OriginWorkflowId value="1dbb04e0-c73e-4f6c-9b9c-5bf2e2f741cc" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateInput</Type>
+              <Description />
+              <ToolId value="6" />
+              <Variable />
+              <InputTool value="-1" />
+              <Required value="True" />
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (3)</Name>
+          <ToolId value="3" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Filename param</Description>
+              <Name>Control Parameter (5)</Name>
+              <ToolId value="5" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (7)</Description>
+              <Name>Macro Input (7)</Name>
+              <ToolId value="7" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (11)</Description>
+              <Name>Macro Output (11)</Name>
+              <ToolId value="11" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (5)</Name>
+            <Description>Filename param</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="7" Selected="True" />
+        <Tool ToolId="11" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

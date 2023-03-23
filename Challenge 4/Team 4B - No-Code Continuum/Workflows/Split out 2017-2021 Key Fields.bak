@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2017-2021 Top10 Fields.xlsx
+Query=`Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="Double" />
+            <Field name="Has Mental Health Condition" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="Bool" />
+            <Field name="Age Group" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="Double" />
+            <Field name="Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="V_String" />
+            <Field name="Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="V_String" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your coworkers?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="V_String" />
+            <Field name="Does your employer offer resources to learn more about mental health disorders and options for seeking help?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="V_String" />
+            <Field name="If a mental health issue prompted you to request a medical leave from work, how easy or difficult would it be to ask for that leave?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="V_String" />
+            <Field name="Would you feel comfortable discussing a mental health issue with your direct supervisor(s)?" size="255" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="V_String" />
+            <Field name="Overall, how much importance does your employer place on physical health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="Double" />
+            <Field name="Overall, how much importance does your employer place on mental health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="Double" />
+            <Field name="Overall, how much importance did your previous employer place on mental health?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="Double" />
+            <Field name="If they knew you suffered from a mental health disorder, how do you think that your team members/co-workers would react?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="Double" />
+            <Field name="Overall, how well do you think the tech industry supports employees with mental health issues?" source="File: C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017-2021 Top10 Fields.xlsx|||`Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-05 11:11:06</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2017</Operand>
+              <StartDate>2022-08-05 11:11:06</StartDate>
+              <EndDate>2022-08-05 11:11:06</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] = 2017</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-05 11:11:06</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2019</Operand>
+              <StartDate>2022-08-05 11:11:06</StartDate>
+              <EndDate>2022-08-05 11:11:06</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] = 2019</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-05 11:11:06</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2018</Operand>
+              <StartDate>2022-08-05 11:11:06</StartDate>
+              <EndDate>2022-08-05 11:11:06</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] = 2018</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-05 11:11:06</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2020</Operand>
+              <StartDate>2022-08-05 11:11:06</StartDate>
+              <EndDate>2022-08-05 11:11:06</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] = 2020</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-05 11:11:06</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2021</Operand>
+              <StartDate>2022-08-05 11:11:06</StartDate>
+              <EndDate>2022-08-05 11:11:06</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] = 2021</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="342" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2017 Top10 Fields.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2017 Top10 Fields.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="342" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2018 Top10 Fields.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2018 Top10 Fields.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="342" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2019 Top10 Fields.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2019 Top10 Fields.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="342" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2020 Top10 Fields.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2020 Top10 Fields.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="342" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\GeorgeGodfrey\OneDrive - Continuum Consulting\Documents\Team\Hackathon\2022\20220807 - ProjectHack 16\General\Challenges\Challenge 4 - Healthy Mind, Healthy Lives\Solution Challenge 4\Outputs\2021 Top10 Fields.xlsx|||Data</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2021 Top10 Fields.xlsx
+Query=Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Split out 2017-2021 Key Fields</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e696554c-2d13-4e3d-a3be-45b71eccdbc1" />
+      <Telemetry>
+        <PreviousWorkflowId value="2a411d4b-2464-4627-a629-c5251f412333" />
+        <OriginWorkflowId value="2a411d4b-2464-4627-a629-c5251f412333" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
