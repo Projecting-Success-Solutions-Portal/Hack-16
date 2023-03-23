@@ -1,7 +1,7 @@
 # Team 3B - 3Brilliant
 **Solution**
 
-![alt text](?raw=true)
+![alt text](https://github.com/Projecting-Success-Solutions-Portal/Hack-16/blob/main/Challenge%203/Team%203B%20-%203Brilliant/Team%203B%20Cover%20Image.png?raw=true)
 
 **Participants Names**
 
