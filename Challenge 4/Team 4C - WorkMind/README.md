@@ -1,7 +1,7 @@
 # Team 4C - WorkMind
 **Solution**
 
-![alt text](?raw=true)
+![alt text](https://github.com/Projecting-Success-Solutions-Portal/Hack-16/blob/main/Challenge%204/Team%204C%20-%20WorkMind/Team%204C%20Cover%20Image.PNG?raw=true)
 
 **Participants Names**
 
